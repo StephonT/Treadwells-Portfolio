@@ -29,9 +29,8 @@ body {
   background-color: #800000;
 }
 
-h1,
 h2 {
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 h3,
@@ -53,7 +52,7 @@ p {
 .section-title {
   width: 90%;
   text-align: start;
-  font-size: 24px;
+  font-size: 50px;
   padding: 0 5px 2px 5px;
   border-bottom: var(--primary-border);
   margin-bottom: var(--primary-margin);
@@ -66,11 +65,12 @@ header {
 }
 
 h1 {
-  background-color: var(--primary-color);
+  background-color: black;
   padding: var(--primary-padding);
   width: 100%;
   text-align: center;
   font-size: 36px;
+  color: var(--secondary-color);
 }
 
 /* Navbar */
@@ -114,8 +114,8 @@ nav {
   justify-content: center;
   background-size: cover;
   background-position: center;
-  background-image: url("../images/hero.jpeg");
-  height: 15vh;
+  background-image: url("../images/hero3.jpeg");
+  height: 20vh;
   margin-bottom: var(--primary-margin);
 }
 
@@ -282,7 +282,7 @@ nav {
   /* Utilities */
 
   .section-title {
-    font-size: 34px;
+    font-size: 36px;
   }
 
   /* Header */
