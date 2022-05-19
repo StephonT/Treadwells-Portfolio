@@ -1,11 +1,5 @@
 # Treadwells-Portfolio
 
-Web Page OF MY-Portfolio
-
-======= <<<<<<<
-
-# My-Portfolio
-
 ## Purpose
 
 A website that showcases my previous work and projects
