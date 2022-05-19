@@ -12,7 +12,7 @@ A website that showcases my previous work and projects
 
 Built With HTML CSS
 
-## Website Url. https://tomhoffmanco.github.io/My-Portfolio/
+## Website Url. https://stephont.github.io/Treadwells-Portfolio/
 
 Contribution Made with ❤️ by [Stephon Treadwell]
 
