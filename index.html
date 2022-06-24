@@ -1,123 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Treadwell's Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
-  <body>
-    <!-- Header -->
-    <header class="flex-wrap">
-      <h1>Stephon Treadwell</h1>
-      <nav>
-        <ul class="nav-list">
-          <li>
-            <a href="#about">About Me</a>
-          </li>
-          <li>
-            <a href="#work">Work</a>
-          </li>
-          <li>
-            <a href="#contact">Contact Me</a>
-          </li>
-          <li>
-            <a href="#">Resume</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Asul:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Treadwell's Portfolio</title>
+</head>
+<body>
 
-    <!-- Hero/Jumbo -->
-    <section class="hero">
-      <h2>Welcome to My Portfolio!</h2>
-    </section>
+<!--Nav Bar Start-->
+<nav class="navbar" role="navigation" aria-label="main navigation" id="navigation-bar">
+  <div class="navbar-brand has-background-black">
+    <h1 class="navbar-item has-text-danger-dark">
+      Stephon Treadwell
+    </h1>
+    <a class="navbar-burger" id="burger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </a>
+  </div>
 
-    <!-- About Me -->
-    <article id="about" class="flex-wrap main-format">
-      <div class="about-head flex-wrap">
-        <h2 class="section-title">About Me</h2>
-        <img src="assets/images/Treadwell.jpg" alt="Stephon Treadwell" />
-      </div>
-      <div class="about-text flex-wrap">
-        <p>
-          Hello! My name is Stephon Treadwell, and I am a Rutgers University
-          Coding Bootcamp student. I am currently a Police Sergeant in the state
-          of New Jersey. I am looking to change careers hence why I am attending
-          the Rutgers Coding Bootcamp. I am looking forward to becoming a
-          Full-Stack Engineer and applying my knowledge and skills and being
-          apart of a company that thrives to reach its goals. <br /><br />
-        </p>
-      </div>
-    </article>
+  <div id="nav-links" class="navbar-menu has-background-warning">
+    <div class="navbar-end">
+      <a class="navbar-item has-text-danger-dark mr-5 has-background-warning">
+        About Me
+      </a>
 
-    <!-- Work -->
-    <section id="work" class="flex-wrap main-format">
-      <h2 class="section-title">Work</h2>
-      <div>
-        <a
-          href="https://cnohilly.github.io/movie-tv-watchlist/index.html"
-          target="_blank"
-          id="watchlist"
-        >
-          <figcaption>
-            <h3>Watch List</h3>
-            <p>HTML/CSS/Javascript/</p>
-          </figcaption>
-        </a>
-        <a
-          href="https://stephont.github.io/run-buddy/"
-          id="run-buddy"
-        >
-          <figcaption>
-            <h3>Run-Buddy</h3>
-            <p>HTML/CSS</p>
-          </figcaption>
-        </a>
-        <a href="#" class="placeholder">
-          <figcaption>
-            <h3>Placeholder</h3>
-            <p>Placeholder</p>
-          </figcaption>
-        </a>
-        <a href="#" class="placeholder">
-          <figcaption>
-            <h3>Placeholder</h3>
-            <p>Placeholder</p>
-          </figcaption>
-        </a>
-        <a href="#" class="placeholder">
-          <figcaption>
-            <h3>Placeholder</h3>
-            <p>Placeholder</p>
-          </figcaption>
-        </a>
-      </div>
-    </section>
+      <a class="navbar-item has-text-danger-dark mr-5 has-background-warning">
+        Work
+      </a>
 
-    <!-- Contact Me -->
-    <section id="contact" class="flex-wrap main-format">
-      <h2 class="section-title">Contact Me</h2>
-      <ul class="flex-wrap">
-        <li id="phone">
-          <a href="tel:+9737526319">973.752.6319</a>
-        </li>
-        <li id="email">
-          <a href="mailto:streadwe@gmail.com"> streadwe@gmail.com </a>
-        </li>
-        <li>
-          <a href="https://github.com/StephonT" target="_blank"> GitHub </a>
-        </li>
-        <li>
-          <a
-            href="https://www.linkedin.com/in/stephon-treadwell-1750ab61/"
-            target="_blank"
-          >
-            LinkedIn
-          </a>
-        </li>
-      </ul>
-    </section>
-  </body>
+      <a class="navbar-item has-text-danger-dark mr-5 has-background-warning">
+        Contact Me
+      </a>
+
+      <a class="navbar-item has-text-danger-dark mr-5 has-background-warning">
+        Resume
+      </a>
+    </div>
+  </div>
+</nav>
+
+<script src="assets/js/script.js"></script>
+
+</body>
 </html>
