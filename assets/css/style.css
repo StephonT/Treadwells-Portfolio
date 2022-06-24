@@ -172,21 +172,21 @@ nav {
 }
 
 #run-buddy:hover,
-#horiseon:hover {
+#watchlist:hover {
   filter: brightness(1);
 }
 
 #run-buddy figcaption,
-#horiseon figcaption {
+#watchlist figcaption {
   background-color: var(--secondary-color);
   text-align: center;
   padding: 3px 5px;
 }
 
-#horiseon {
+#watchlist {
   display: flex;
   align-items: flex-end;
-  background-image: url("../images/Horiseon-Site2.jpg");
+  background-image: url("../images/Project\ 1\ Screen\ Shot.jpg");
   background-size: cover;
   background-position: center;
   filter: brightness(0.75);
@@ -501,18 +501,18 @@ nav {
   }
 
   #run-buddy h3,
-  #horiseon,
+  #watchlist,
   .placeholder h3 {
     font-size: 24px;
   }
 
   #run-buddy p,
-  #horiseon,
+  #watchlist,
   .placeholder p {
     font-size: 18px;
   }
 
-  #horiseon,
+  #watchlist,
   .placeholder {
     height: 25vh;
   }
