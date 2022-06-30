@@ -3,6 +3,14 @@
     
 }
 
+#hero-section {
+    background-image: url(../images/black-background.jpg);
+}
+
+#hero-title {
+    float: right;
+}
+
 h1, h2 {
     font-size: 35px;
 }
@@ -24,3 +32,4 @@ a:hover {
     font-size: 30px;
     
 }
+
