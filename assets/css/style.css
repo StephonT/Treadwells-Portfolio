@@ -11,6 +11,10 @@
     float: right;
 }
 
+.subtitle {
+    line-height: 32px;
+}
+
 h1, h2 {
     font-size: 35px;
 }
