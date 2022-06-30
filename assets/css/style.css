@@ -3,13 +3,21 @@
     
 }
 
-h1 {
+h1, h2 {
     font-size: 35px;
 }
 
-a {
+a{
     font-size: 25px;
     text-decoration: none;
+}
+
+.contact-info {
+    font-size: 20px;
+}
+
+.contact-info:hover {
+    font-size: 30px;
 }
 
 a:hover {
