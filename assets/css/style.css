@@ -90,4 +90,27 @@ a:hover {
         font-size: 20px;
     }
 
+    /*Two Placeholders*/
+
+    .rotate img{
+        transition: 1s ease;
+        }
+        
+        .rotate img:hover{
+        -webkit-transform: rotateZ(-10deg);
+        -ms-transform: rotateZ(-10deg);
+        transform: rotateZ(-10deg);
+        transition: 1s ease;
+        }
+
+        .blur img{
+            transition: 1s ease;
+            }
+            
+            .blur img:hover {
+            -webkit-filter: blur(5px);
+            transition: 1s ease;
+            }
+    
+    /*Two Placeholders End*/        
 
