@@ -9,7 +9,3 @@ Built With HTML, Bulma CSS, and Javascript
 ## Website Url : https://stephont.github.io/Treadwells-Portfolio/
 
 <img width="1439" alt="Screen Shot of Portfolio" src="assets\images\portfolio screenshot.jpg">
-
-Contribution Made with ❤️ by [Stephon Treadwell]
-
-©️2022 My-Portfolio
