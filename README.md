@@ -2,9 +2,9 @@
 
 ## Purpose
 
-A website that showcases my previous work and projects
+A website that showcases my work and explains a little about myself. I have my contact information on my profile as well.
 
-Built With HTML CSS
+Built With HTML, Bulma CSS, and Javascript
 
 ## Website Url : https://stephont.github.io/Treadwells-Portfolio/
 
