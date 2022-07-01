@@ -15,7 +15,7 @@
 <body>
 
 <!--Nav Bar Start-->
-<nav class="navbar" role="navigation" aria-label="main navigation" id="navigation-bar">
+<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation" id="navigation-bar">
   <div class="navbar-brand has-background-black">
     <h1 class="navbar-item has-text-danger-dark">
       Stephon Treadwell
@@ -29,11 +29,11 @@
 
   <div id="nav-links" class="navbar-menu has-background-warning">
     <div class="navbar-end">
-      <a class="navbar-item has-text-danger-dark mr-5 has-background-warning">
+      <a href="#about" class="navbar-item has-text-danger-dark mr-5 has-background-warning">
         About Me
       </a>
 
-      <a class="navbar-item has-text-danger-dark mr-5 has-background-warning">
+      <a href="#work" class="navbar-item has-text-danger-dark mr-5 has-background-warning">
         Work
       </a>
 
@@ -59,8 +59,9 @@
 </section>
 <!--Hero End-->
 
+<!--About Me Start-->
 <section class="section has-background-danger-dark" id="aboutme-section">
-  <h1 class="title has-text-centered has-text-black">About Me</h1>
+  <h1 class="title has-text-centered has-text-black" id="about">About Me</h1>
   <div class=" columns about-pic">
     <div class="column">
       <img src="./assets/images/Treadwell.jpg" alt="Treadwell posing for picture" id="profile-pic">
@@ -68,16 +69,68 @@
   </div>
   <!--Add Image Here-->
   <p class="subtitle has-text-centered has-text-warning">
-    Hello! I'm a certified full-stack web developer with a business administration background looking to contribute my newly developed skills acquired from the Rutgers University Coding Boot Camp. Projects that I have done reflect my skills in HTML, CSS, other CSS Frameworks, JavaScript, jQuery, web APIs, server-side API, and Node.js. I have strong skills in creativity, teamwork, and meeting deadlines. My ability to quickly learn cutting-edge web technologies, combined with my adept problem-solving abilities and determination, make me a strong addition to any engineering team.
+    Hello! My name is Stephon and I'm a full-stack web developer out of North Brunswick, NJ. I have a business administration and law enforcement background and I'm looking to contribute my newly developed skills acquired from the Rutgers University Coding Boot Camp. Projects that I have done reflect my skills in HTML, CSS, other CSS Frameworks, JavaScript, jQuery, web APIs, server-side API, and Node.js. I have strong skills in creativity, teamwork, and meeting deadlines. My ability to quickly learn cutting-edge web technologies, combined with my adept problem-solving abilities and determination, make me a strong addition to any engineering team.
   </p>
 </section>
+<!--About Me End-->
 
+<!--Works Start-->
+
+<section class="section is-small has-background-warning">
+  <div class="columns">
+    <div class="column has-text-centered">
+      <h2 class="has-text-black" id="work">Work</h2>
+    </div>
+  </div>
+
+<div class="grow brighten">  
+  <div class="columns">
+    <div class="column has-text-centered container">
+      <h3 class="has-text-danger-dark">Movie & TV Watchlist</h3>
+      <h4 class="has-text-danger-dark">HTML/CSS/JS/Server-Side API</h4>
+      <a href="https://cnohilly.github.io/movie-tv-watchlist/" target="_blank">
+        <img class="project-1" src="./assets/images/Project 1 Screen Shot.jpg" alt="Screenshot of Movie & TV Watchlist application">  
+      </a>  
+    </div>
+  </div>
+</div>  
+
+<div class="grow brighten">
+  <div class="columns">
+    
+    <div class="column is-one-third">
+      <h3 class="has-text-danger-dark">Run Buddy</h3>
+      <h4 class="has-text-danger-dark">HTML/CSS</h4>
+      <a href="https://stephont.github.io/run-buddy/" target="_blank">
+        <img class="run-buddy" src="./assets/images/runbuddy ss.png" alt="Screenshot of Run Buddy application">
+      </a>  
+    </div>    
+    
+
+    <div class="column is-one-third">
+      <h3 class="has-text-danger-dark">Second column</h3>
+      <h4 class="has-text-danger-dark">subtitle</h4>
+      <img class="placeholder" src="./assets/images/placeholder.png" alt="">
+    </div>
+
+    <div class="column is-one-third">
+      <h3 class="has-text-danger-dark">Second column</h3>
+      <h4 class="has-text-danger-dark">subtitle</h4>
+      <img class="placeholder" src="./assets/images/placeholder.png" alt="">
+    </div>
+  </div>  
+</div>    
+
+</section> 
+
+
+<!--Works End-->
 
 <!--Footer Start-->
-<footer class="footer has-background-warning">
+<footer class="footer has-background-black" id="contact">
   <div class="container content has-text-centered">
     <div class="footer-title">
-      <h2 class="has-text-black">Contact Me:</h2>
+      <h2 class="has-text-warning">Contact Me:</h2>
     </div> 
     
     <div class="contacts">
