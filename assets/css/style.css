@@ -111,6 +111,10 @@ a:hover {
             -webkit-filter: blur(5px);
             transition: 1s ease;
             }
+
+    #works-section {
+        scroll-margin-top: 3rem;
+    }
     
     /*Two Placeholders End*/        
 
